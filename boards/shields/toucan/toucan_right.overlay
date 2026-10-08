@@ -68,6 +68,7 @@
         hold-time = <500>;
 
         zoom;
+        zoom-initial-distance = <150>; // px of pinch before zoom starts; raised to stop accidental zooms (chip default believed to be 50)
         scroll;
         two-finger-tap;
         single-tap;
