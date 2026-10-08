@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/geeksville
     - name: beekeeb
       url-base: https://github.com/beekeeb
+    - name: dhruvinsh
+      url-base: https://github.com/dhruvinsh
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,6 +23,9 @@ manifest:
       revision: main
     - name: zmk-input-zoom
       remote: beekeeb
+      revision: main
+    - name: zmk-tri-state
+      remote: dhruvinsh
       revision: main
   self:
     path: config
