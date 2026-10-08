@@ -92,7 +92,7 @@
         adj {
             display-name = "ADJ";
             bindings = <
-                &kp TAB   &bootloader &kp F7 &kp F8 &kp F9 &kp F12   &trans &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans &kp BSPC
+                &kp TAB   &bootloader &kp F7 &kp F8 &kp F9 &kp F12   &trans &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &bootloader &kp BSPC
                 &kp LCTRL &trans &kp F4 &kp F5 &kp F6 &kp F11   &trans &kp C_RW     &kp C_PP    &kp C_FF     &trans &trans
                 &kp LSHFT &trans &kp F1 &kp F2 &kp F3 &kp F10   &trans       &trans      &trans       &trans &trans &trans
                                    &kp LCTRL &mo SYM &ts LSHFT SPACE   &ts LSHFT RET &mo NAV &kp LALT
