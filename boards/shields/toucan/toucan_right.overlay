@@ -63,7 +63,8 @@
         sensitivity = <100>;
         scroll-sensitivity = <100>;
 
-        filter-settings=<0x0B>;
+        filter-settings = <0x0F>; // was 0x0B
+        // filter-dynamic-bottom = <7>; // alternative: use with 0x0B, not with 0x0F
         hold-time = <500>;
 
         zoom;
