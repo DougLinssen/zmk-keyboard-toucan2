@@ -4,28 +4,27 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: geeksville
-      url-base: https://github.com/geeksville
     - name: beekeeb
       url-base: https://github.com/beekeeb
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
+  # Revisions are pinned to exact commits so builds only change when this file does.
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-      revision: v0.3
+      revision: edf5c0814fd3ea202e43aad2d68fd32e882a518c # v0.3.0
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: v0.3
+      revision: 8756cb7b8114069fa3c25c6f6c990f24988fceff # v0.3.0
     - name: zmk_driver_azoteq
       remote: beekeeb
-      revision: main
+      revision: c329f309b7481e5723603550b15f48e24d0c8a6a # main, 2026-10-08
     - name: zmk-input-zoom
       remote: beekeeb
-      revision: main
+      revision: 91bbe0c0e02145da50c9df798489479d28be1804 # main, 2026-10-08
     - name: zmk-tri-state
       remote: dhruvinsh
-      revision: main
+      revision: ebbc1f0ccdb51669650bb0ac3e34920d09e62400 # main, 2026-10-08
   self:
     path: config
