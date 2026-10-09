@@ -55,7 +55,7 @@ layers:
     - '4'
     - '5'
     - '6'
-    - {t: ▽, type: trans}
+    - {t: Win, h: sticky}
     - {t: ▽, type: trans}
     - HOME
     - UP
@@ -74,7 +74,7 @@ layers:
     - RIGHT
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: Win, h: sticky}
+  - - LCTRL
     - {t: ▽, type: trans}
     - {t: SPACE, h: LSHFT}
     - {t: RET, h: LSHFT}
