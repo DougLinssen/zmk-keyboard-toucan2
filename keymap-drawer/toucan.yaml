@@ -1,0 +1,206 @@
+layout:
+  ortho_layout:
+    split: true
+    rows: 3
+    columns: 6
+    thumbs: 3
+layers:
+  BASE:
+  - [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC]
+  - - LCTRL
+    - A
+    - S
+    - D
+    - {t: F, h: LCTRL}
+    - G
+    - H
+    - {t: J, h: LCTRL}
+    - K
+    - L
+    - ;
+    - ''''
+  - - LSHFT
+    - {t: Z, h: Ctrl+Z}
+    - {t: X, h: Ctrl+X}
+    - {t: C, h: Ctrl+C}
+    - {t: V, h: Ctrl+V}
+    - B
+    - N
+    - M
+    - ','
+    - .
+    - /
+    - ESC
+  - - LCTRL
+    - SYM
+    - {t: SPACE, h: LSHFT}
+    - {t: RET, h: LSHFT}
+    - NAV
+    - LALT
+  NAV:
+  - - TAB
+    - {t: ▽, type: trans}
+    - '1'
+    - '2'
+    - '3'
+    - {t: ▽, type: trans}
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '0'
+    - BSPC
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '4'
+    - '5'
+    - '6'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - HOME
+    - UP
+    - END
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - LSHFT
+    - {t: ▽, type: trans}
+    - '7'
+    - '8'
+    - '9'
+    - '0'
+    - {t: ▽, type: trans}
+    - LEFT
+    - DOWN
+    - RIGHT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: Win, h: sticky}
+    - {t: ▽, type: trans}
+    - {t: SPACE, h: LSHFT}
+    - {t: RET, h: LSHFT}
+    - {type: held}
+    - LALT
+  SYM:
+  - - {t: Alt+Tab, h: hold SYM}
+    - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - ^
+    - '&'
+    - '*'
+    - (
+    - )
+    - BSPC
+  - - LCTRL
+    - {t: ▽, type: trans}
+    - '#'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '-'
+    - '='
+    - '['
+    - ']'
+    - \
+    - '`'
+  - - LSHFT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - _
+    - +
+    - '{'
+    - '}'
+    - '|'
+    - '~'
+  - - LCTRL
+    - {type: held}
+    - {t: SPACE, h: LSHFT}
+    - {t: RET, h: LSHFT}
+    - {t: ▽, type: trans}
+    - LALT
+  ADJ:
+  - - TAB
+    - BOOT
+    - F7
+    - F8
+    - F9
+    - F12
+    - {t: ▽, type: trans}
+    - VOL DN
+    - MUTE
+    - VOL UP
+    - BOOT
+    - BSPC
+  - - LCTRL
+    - {t: ▽, type: trans}
+    - F4
+    - F5
+    - F6
+    - F11
+    - {t: ▽, type: trans}
+    - RW
+    - PP
+    - FF
+    - {t: ▽, type: trans}
+    - DEL
+  - - LSHFT
+    - {t: ▽, type: trans}
+    - F1
+    - F2
+    - F3
+    - F10
+    - BT CLR
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+  - - LCTRL
+    - {t: SYM, type: held}
+    - {t: SPACE, h: LSHFT}
+    - {t: RET, h: LSHFT}
+    - {t: NAV, type: held}
+    - LALT
+  MOU:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Back
+    - Fwd
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - [M click, L click, R click, L click, R click, M click]

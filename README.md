@@ -2,6 +2,12 @@
 
 [The beekeeb Toucan2 Keyboard](https://beekeeb.com/introducing-toucan2/) is a wireless split 42-key column‑stagger keyboard that a display and a trackpad, with an aggressive stagger on the pinky columns.
 
+# Keymap
+
+![Keymap layers](keymap-drawer/toucan.svg)
+
+Drawn from [config/toucan.keymap](config/toucan.keymap) with [keymap-drawer](https://github.com/caksoylar/keymap-drawer). After changing the keymap, regenerate it with `./keymap-drawer/draw.ps1` (needs [uv](https://docs.astral.sh/uv/); it also writes a `toucan.png`, which is git-ignored).
+
 # Customizations
 
 - **Keymap**: [config/toucan.keymap](config/toucan.keymap)

@@ -1,0 +1,27 @@
+draw_config:
+  key_w: 60
+  key_h: 56
+  split_gap: 40
+  dark_mode: auto
+  append_colon_to_layer_header: false
+parse_config:
+  zmk_keymap_layer_names: true
+  raw_binding_map:
+    "&swap": {t: "Alt+Tab", h: "hold SYM"}
+    "&bootloader": BOOT
+    "&ctl_macro LC(Z)": "Ctrl+Z"
+    "&ctl_macro LC(X)": "Ctrl+X"
+    "&ctl_macro LC(C)": "Ctrl+C"
+    "&ctl_macro LC(V)": "Ctrl+V"
+
+    "&kp NUBS": "\\"
+    "&kp NUHS": "#"
+    "&kp LS(NUBS)": "|"
+    "&kp LS(NUHS)": "~"
+    "&kp KP_MULTIPLY": "*"
+    "&mkp MB4": "Back"
+    "&mkp MB5": "Fwd"
+    "&mkp LCLK": "L click"
+    "&mkp RCLK": "R click"
+    "&mkp MCLK": "M click"
+    "&kp LGUI": "Win"
