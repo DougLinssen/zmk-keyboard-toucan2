@@ -44,11 +44,11 @@ layers:
     - '2'
     - '3'
     - {t: ▽, type: trans}
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '0'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - BSPC
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}

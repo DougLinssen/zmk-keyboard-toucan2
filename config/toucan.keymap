@@ -91,7 +91,7 @@
         nav {
             display-name = "NAV";
             bindings = <
-                &kp TAB     &trans          &kp N1       &kp N2       &kp N3       &trans         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
+                &kp TAB     &trans          &kp N1       &kp N2       &kp N3       &trans         &trans  &trans   &trans &trans    &trans &kp BSPC
                 &trans      &trans          &kp N4       &kp N5       &kp N6       &trans         &trans   &kp HOME &kp UP &kp END   &trans &trans
                 &kp LSHFT   &trans          &kp N7       &kp N8       &kp N9       &kp N0         &trans   &kp LEFT &kp DOWN &kp RIGHT &trans &trans
                                                 &sk LGUI     &trans       &ts LSHFT SPACE      &ts LSHFT RET  &trans   &kp LALT
