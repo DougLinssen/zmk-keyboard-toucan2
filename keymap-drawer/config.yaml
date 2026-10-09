@@ -25,3 +25,4 @@ parse_config:
     "&mkp RCLK": "R click"
     "&mkp MCLK": "M click"
     "&kp LGUI": "Win"
+    "&kp LG(L)": "Lock"

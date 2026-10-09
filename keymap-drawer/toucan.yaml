@@ -149,7 +149,7 @@ layers:
     - {t: ▽, type: trans}
     - DEL
   - - LSHFT
-    - {t: ▽, type: trans}
+    - Lock
     - F1
     - F2
     - F3
