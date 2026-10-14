@@ -28,6 +28,7 @@ parse_config:
     "&kp LG(L)": "Lock"
     "&qq": {t: Q, h: "Alt+F4"}
     "&pv": {t: "Ctrl+V", h: "2x Win+V"}
+    "&ks LSHFT 0": {t: "` ~", h: Shift}
     "&kp LC(B)": "Ctrl+B"
     "&kp LC(C)": "Ctrl+C"
     "&kp LC(X)": "Ctrl+X"
