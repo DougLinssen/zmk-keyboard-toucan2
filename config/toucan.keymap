@@ -99,7 +99,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp Q>, <&kp LA(F4)>;
-            mods = <(MOD_LCTRL|MOD_RCTRL)>;
+            mods = <(MOD_LCTL|MOD_RCTL)>;
         };
 
         // Window swapper (zmk-tri-state module): SYM + Tab holds Alt and taps
