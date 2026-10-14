@@ -75,13 +75,23 @@
 
 
 
-        // Left pinky, exactly like the Mac ` ~ key beside Z: ` normally, ~ with Shift
-        // (UK layout: Shift+#). It is not Shift itself; Shift comes from the thumbs, and
-        // from S on the mouse layer for Shift+click.
+
+        // Left pinky, the Mac ` ~ key beside Z, with a Shift hold. Tapped: ` (Shift+tap: ~,
+        // UK Shift+#). Held: Shift. The hold-tap is balanced, so holding it and tapping
+        // another key gives Shift at any delay (Shift+click, Shift+arrows). The mod-morph
+        // wraps the hold-tap so a thumb Shift + tap still gives ~ instead of a Shift hold.
+        ks: shift_grave {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+        };
+
         gm: grave_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp GRAVE>, <&kp LS(NUHS)>;
+            bindings = <&ks LSHFT GRAVE>, <&kp LS(NUHS)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 

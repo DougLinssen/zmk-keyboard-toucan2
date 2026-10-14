@@ -30,7 +30,7 @@ layers:
     - {t: L, h: LSHFT}
     - ;
     - ''''
-  - - {t: '`', s: '~'}
+  - - {t: '`', h: Shift, s: '~'}
     - {t: Z, h: Ctrl+Z}
     - {t: X, h: Ctrl+X}
     - {t: C, h: Ctrl+C}
@@ -73,7 +73,7 @@ layers:
     - Word →
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: '`', s: '~'}
+  - - {t: '`', h: Shift, s: '~'}
     - {t: ▽, type: trans}
     - '7'
     - '8'
@@ -116,7 +116,7 @@ layers:
     - ']'
     - ':'
     - '`'
-  - - {t: '`', s: '~'}
+  - - {t: '`', h: Shift, s: '~'}
     - Ctrl+Z
     - Ctrl+X
     - Ctrl+C
@@ -159,7 +159,7 @@ layers:
     - FF
     - {t: ▽, type: trans}
     - DEL
-  - - {t: '`', s: '~'}
+  - - {t: '`', h: Shift, s: '~'}
     - Lock
     - F7
     - F8
