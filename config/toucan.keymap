@@ -62,6 +62,15 @@
             bindings = <&ctl_macro>, <&kp>;
         };
 
+        // SYM + V: tap = paste (Ctrl+V), double tap = clipboard history (Win+V).
+        // Tapping term is short so a single paste isn't noticeably delayed.
+        pv: paste_dance {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <180>;
+            bindings = <&kp LC(V)>, <&kp LG(V)>;
+        };
+
         // Mac-style quit: Ctrl+Q sends Alt+F4 (Ctrl is masked, so it's not Ctrl+Alt+F4).
         qq: quit_morph {
             compatible = "zmk,behavior-mod-morph";
@@ -111,7 +120,7 @@
             bindings = <
                 &swap     &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
                 &kp LCTRL &trans   &kp NUHS &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp NUBS &kp GRAVE
-                &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp LS(NUBS) &kp LS(NUHS)
+                &kp LSHFT &kp LC(Z) &kp LC(X) &kp LC(C) &pv &kp LC(B)   &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp LS(NUBS) &kp LS(NUHS)
                                           &kp LCTRL &trans   &ts LSHFT SPACE   &ts LSHFT RET   &trans    &kp LALT
             >;
         };

@@ -598,25 +598,26 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LSHFT</text>
 </g>
-<g transform="translate(90, 140)" class="key trans keypos-25">
-<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(90, 140)" class="key keypos-25">
+<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Ctrl+Z</text>
 </g>
-<g transform="translate(150, 140)" class="key trans keypos-26">
-<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(150, 140)" class="key keypos-26">
+<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Ctrl+X</text>
 </g>
-<g transform="translate(210, 140)" class="key trans keypos-27">
-<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(210, 140)" class="key keypos-27">
+<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Ctrl+C</text>
 </g>
-<g transform="translate(270, 140)" class="key trans keypos-28">
-<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(270, 140)" class="key keypos-28">
+<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Ctrl+V</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 88%">2x Win+V</tspan></text>
 </g>
-<g transform="translate(330, 140)" class="key trans keypos-29">
-<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(330, 140)" class="key keypos-29">
+<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Ctrl+B</text>
 </g>
 <g transform="translate(430, 140)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>

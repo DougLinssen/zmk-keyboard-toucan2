@@ -27,3 +27,8 @@ parse_config:
     "&kp LGUI": "Win"
     "&kp LG(L)": "Lock"
     "&qq": {t: Q, h: "Alt+F4"}
+    "&pv": {t: "Ctrl+V", h: "2x Win+V"}
+    "&kp LC(B)": "Ctrl+B"
+    "&kp LC(C)": "Ctrl+C"
+    "&kp LC(X)": "Ctrl+X"
+    "&kp LC(Z)": "Ctrl+Z"
