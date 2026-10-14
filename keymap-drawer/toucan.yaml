@@ -6,7 +6,18 @@ layout:
     thumbs: 3
 layers:
   BASE:
-  - [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC]
+  - - TAB
+    - {t: Q, h: Alt+F4}
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - BSPC
   - - LCTRL
     - A
     - S
@@ -126,9 +137,9 @@ layers:
   ADJ:
   - - TAB
     - BOOT
-    - F7
-    - F8
-    - F9
+    - F1
+    - F2
+    - F3
     - F12
     - {t: ▽, type: trans}
     - VOL DN
@@ -150,9 +161,9 @@ layers:
     - DEL
   - - LSHFT
     - Lock
-    - F1
-    - F2
-    - F3
+    - F7
+    - F8
+    - F9
     - F10
     - BT CLR
     - {t: BT, h: '0'}

@@ -26,3 +26,4 @@ parse_config:
     "&mkp MCLK": "M click"
     "&kp LGUI": "Win"
     "&kp LG(L)": "Lock"
+    "&qq": {t: Q, h: "Alt+F4"}
