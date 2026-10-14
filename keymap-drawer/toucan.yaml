@@ -20,14 +20,14 @@ layers:
     - BSPC
   - - LCTRL
     - A
-    - S
-    - D
+    - {t: S, h: LSHFT}
+    - {t: D, h: LALT}
     - {t: F, h: LCTRL}
     - G
     - H
     - {t: J, h: LCTRL}
-    - K
-    - L
+    - {t: K, h: LALT}
+    - {t: L, h: LSHFT}
     - ;
     - ''''
   - - {t: '`', s: '~'}
