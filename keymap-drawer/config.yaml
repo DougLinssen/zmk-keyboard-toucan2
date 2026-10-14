@@ -26,6 +26,8 @@ parse_config:
     "&mkp MCLK": "M click"
     "&kp LGUI": "Win"
     "&kp LG(L)": "Lock"
+    "&kp LC(LEFT)": "Word ←"
+    "&kp LC(RIGHT)": "Word →"
     "&qq": {t: Q, h: "Alt+F4"}
     "&pv": {t: "Ctrl+V", h: "2x Win+V"}
     "&gm": {t: "`", s: "~"}
