@@ -18,14 +18,18 @@ and the plan for a Mac layer, so it can be picked up later. Nothing here is buil
 | SYM V double-tap = Win+V clipboard history (`pv`) | no native equivalent |
 | NAV G one-shot Win (`&sk LGUI`) | sends Cmd; Win-style shortcuts don't exist |
 | Right thumb Alt | Option (also types accents, handy on Mac) |
+| NAV Home / End | Cmd+Left / Cmd+Right (line), or Cmd+Up / Cmd+Down (document) |
+| NAV word jumps (Ctrl+Left/Right) | Option+Left / Option+Right |
 
 **Symbols.** The key codes for `\`, `|`, `#` and the backtick/tilde key (`NUBS`, `NUHS`, `GRAVE`)
 land on different characters on a UK Mac layout. On a UK Mac the `` ` ~ `` key is the one next
 to Z (the key code currently used as `\` on SYM). Needs checking on a real Mac. macOS's
 Keyboard Setup Assistant (ISO vs ANSI choice when pairing) also changes what these produce.
 
-**Navigation.** Home/End go to the document start/end on macOS. The line equivalents are
-Cmd+Left/Right.
+**Navigation (NAV layer).** Home/End (top row, above the word-jump keys) go to the document
+start/end on macOS. The Mac line start/end is Cmd+Left/Right, and the document start/end is
+Cmd+Up/Down. The word-jump keys (home row, either side of Up) send Ctrl+Left/Right, which on a
+Mac should be Option+Left/Right. Held with Shift, both extend the selection the same way.
 
 **Trackpad.** Swipe and zoom shortcuts are selected at build time by `TOUCAN_WIN_MODE` in
 `boards/shields/toucan/toucan.dtsi` (it is defined now). The Mac variants are already in that
