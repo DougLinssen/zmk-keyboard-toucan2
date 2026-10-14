@@ -30,7 +30,7 @@ layers:
     - L
     - ;
     - ''''
-  - - {t: '~', h: Shift}
+  - - {t: '`', s: '~'}
     - {t: Z, h: Ctrl+Z}
     - {t: X, h: Ctrl+X}
     - {t: C, h: Ctrl+C}
@@ -73,7 +73,7 @@ layers:
     - END
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: '~', h: Shift}
+  - - {t: '`', s: '~'}
     - {t: ▽, type: trans}
     - '7'
     - '8'
@@ -116,7 +116,7 @@ layers:
     - ']'
     - ':'
     - '`'
-  - - {t: '~', h: Shift}
+  - - {t: '`', s: '~'}
     - Ctrl+Z
     - Ctrl+X
     - Ctrl+C
@@ -159,7 +159,7 @@ layers:
     - FF
     - {t: ▽, type: trans}
     - DEL
-  - - {t: '~', h: Shift}
+  - - {t: '`', s: '~'}
     - Lock
     - F7
     - F8
@@ -192,7 +192,7 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - LSHFT
     - Back
     - Fwd
     - {t: ▽, type: trans}
