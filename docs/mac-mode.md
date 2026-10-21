@@ -16,7 +16,7 @@ and the plan for a Mac layer, so it can be picked up later. Nothing here is buil
 | SYM + Tab swapper holds Alt (`swap`) | Cmd+Tab (hold Cmd) |
 | ADJ Z = Win+L lock | Ctrl+Cmd+Q |
 | SYM V double-tap = Win+V clipboard history (`pv`) | no native equivalent |
-| NAV G one-shot Win (`&sk LGUI`) | sends Cmd; Win-style shortcuts don't exist |
+| NAV left outer thumb one-shot Win (`&sk LGUI`) | sends Cmd; Win-style shortcuts don't exist |
 | Right thumb Alt | Option (also types accents, handy on Mac) |
 | NAV Home / End | Cmd+Left / Cmd+Right (line), or Cmd+Up / Cmd+Down (document) |
 | NAV word jumps (Ctrl+Left/Right) | Option+Left / Option+Right |
