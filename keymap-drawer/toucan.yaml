@@ -72,7 +72,7 @@ layers:
     - UP
     - Word →
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - DEL
   - - {t: '`', h: Shift, s: '~'}
     - {t: ▽, type: trans}
     - '7'
